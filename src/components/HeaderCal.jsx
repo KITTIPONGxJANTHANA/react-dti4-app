@@ -1,10 +1,11 @@
 import React from "react";
 
 const HeaderCal = (props) => {
-  const { titleName, imgName } = props;
+  const { titleName, imgName,titleC } = props;
   return (
     <>
-      <h1 style={{ textAlign: "center", color: "blue" }}>{titleName}</h1>
+      <h1 style={titleC}>
+        {titleName}</h1>
       <img
         src={imgName}
         alt=""

@@ -7,7 +7,7 @@ const CarCal = () => {
   return (
     <div>
       <Menubar />
-      <HeaderCal titleName="CarCal" imgName={car} />
+      <HeaderCal titleName="CarCal" imgName={car}  titleC={{ textAlign: "center", color: "#15ff00ff" }} />
          <Footer emoji="😀" />
       CarCal Page
     </div>

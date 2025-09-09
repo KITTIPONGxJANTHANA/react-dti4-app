@@ -8,7 +8,7 @@ const Money = () => {
   return (
     <div>
       <Menubar />
-      <HeaderCal titleName="Money"  imgName={Moneys} />
+      <HeaderCal titleName="Money"  imgName={Moneys}  titleC={{ textAlign: "center", color: "#5222ffff" }} />
                  <Footer emoji="😚" />
       Money Page
     </div>

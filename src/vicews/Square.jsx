@@ -7,7 +7,7 @@ const Square = () => {
   return (
     <div>
       <Menubar />
-      <HeaderCal titleName="Square" imgName={square} />
+      <HeaderCal titleName="Square" imgName={square}   titleC={{ textAlign: "center", color: "#11bcffff" }} />
              <Footer emoji="😲" />
       Square Page
     </div>
